@@ -1,0 +1,650 @@
+body {
+    background-color: black ;
+    font-family: sans-serif;
+}
+
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+.nav li {
+    list-style: none;
+    align-items: center;
+   
+}
+.nav {
+    height: fit-content;
+    width: 97vw;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+padding: 1px 1px;
+margin: 5px 5px;
+
+
+}
+
+.nav ul {
+    display: flex; 
+   gap: 20px;
+    padding: 1px;
+  align-items: center;
+  font-family: sans-serif;
+} 
+
+li > .box {
+    width: 30vw;
+    border: 2px solid black;
+}
+.box {
+    padding: 12px 10px;
+    display: flex;
+    border-radius: 35px;
+    justify-content: space-between;
+    background-color: #1f1f1f;
+   position: relative;
+   border: 2px solid red;
+   max-width: 25vw;
+} 
+.box:hover {
+    background-color: #2f2f2f;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.box img {
+    color: rgb(157, 152, 146);
+}
+.sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.nav li img {
+    filter: invert(1);
+}
+.nav li {
+    color: white ;
+}
+.bx {
+    padding: 10px;
+    border-radius: 50%;
+}
+.bx:hover {
+    background-color: #2f2f2f;
+    transition: 0.3s;
+}
+.sen {
+   
+    padding: 7px;
+    border: 1px solid rgb(147, 144, 144);
+    border-radius: 5px;
+    margin: 0px 0px ;
+    display: none;
+}
+.box:hover .sen {
+    display: block;
+} 
+.r li {
+    display: flex; 
+    gap: 10px;
+    align-items: center;
+}
+.r {
+    width: 48vw;
+     display: flex;
+     align-items: center;
+     justify-content: end;
+    padding: 1px 1px;
+    height: fit-content;
+}
+.l {
+    width: 48vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1px 1px;
+    margin: 2px 5px;
+    height: fit-content;
+}
+.nav li {
+    color: rgb(157, 152, 146);
+}
+.nav li:hover {
+    color: rgb(214, 213, 211);
+    cursor: pointer;
+}
+
+.bs {
+    padding: 20px 35px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;  
+    margin: 2px 5px ;
+}
+.bs:hover {
+ background-color: rgb(223, 216, 216);
+    padding: 22px 35px ;
+}
+.r img {
+    color:rgb(157, 152, 146); 
+}
+.fot {
+    position: fixed;
+    bottom: 5px;
+    left: 15px;
+    
+    height: 65px;
+    width: 94vw;
+    background: linear-gradient(90deg, #af2896, #509bf5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+   
+    padding: 2px 40px;
+}
+.container {
+     padding: 1px 1px;
+     margin: 3px 2px;
+   height: 80vh;
+    display: flex;
+  
+
+}
+.left {
+   width: 24vw;
+   padding: 10px 5px;
+   margin: 10px 5px;
+   
+}
+.right {
+width: 74vw;
+padding: 10px 5px;
+   margin: 10px 5px;
+  padding-bottom: 0px;
+
+}
+.frst {
+    display: flex; 
+    align-items: center;
+    padding: 2px 20px;
+    justify-content: space-between;
+  
+} 
+.frst div {
+    color: white;
+ 
+}
+.left , .right {
+    background-color: #121212;
+    padding: 2px 2px;
+       
+}
+.songList {
+    padding: 1px 10px;
+    margin: 10px 10px;
+
+    height: 70%;
+}
+.thrdd {
+
+       padding: 1px 15px;
+    margin: 1px 1px ;
+    height: 15vh;  
+  
+   
+}
+.f{
+    height: 45%;
+    padding: 10px 10px;
+    margin: 0px 5px;
+   display: flex;
+  row-gap: 10px;
+  column-gap: 20px;
+    flex-wrap: wrap; 
+       
+       
+}
+.s {
+    height: 28%;
+       padding: 1px 1px;
+    margin: 0px 1px ;
+ align-items: top;
+ 
+}
+.c {
+    display: flex;
+    gap : 10px;
+    width: fit-content;
+    padding: 7px 10px; 
+    align-items: center ;
+    color: white;
+    border: 1px solid rgb(122, 120, 120);
+    font-family:  sans-serif;
+    font-weight: 700;
+    border-radius: 28px;
+    margin: 2px 2px;
+}
+.c:hover {
+        padding: 8px 11px;
+           border: 1px solid rgb(170, 166, 166);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.f * {
+    color: rgb(148, 144, 144);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.f *:hover{
+  color: white ;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.nv {
+    padding: 20px ;
+    color: white;
+    margin: 5px ;
+}
+.nv h1:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+    cursor: pointer;
+
+} 
+
+.rg {
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.lf div {
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-family: sans-serif;
+}
+.lf div:first-child {
+    font-weight: 700;
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+   margin-bottom: 60px;
+   max-height: 59vh;
+   overflow-y: auto;
+ 
+   
+}
+.card {
+    
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 224px;
+  position: relative;
+    display: flex;
+    flex-direction: column; 
+    gap: 8px;
+    object-fit: contain;
+  
+} 
+
+.ply {
+   padding-top: 5px;
+   padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 3px;
+    background-color: rgb(73, 218, 73);
+    width: 40px;
+    border-radius: 60px;
+    position: absolute;
+    top: 215px;
+    opacity: 0;
+    left: 160px;
+      transition: all 0.3s;
+}
+.card:hover .ply {
+     top: 160px;
+     opacity: 1;
+}
+.card:hover {
+    background-color: #1f1f1f;
+} 
+
+
+
+::-webkit-scrollbar {
+    width: 6px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #121212; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d0d0d0; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e0e0e0;
+}
+
+
+::-webkit-scrollbar-button {
+    display: none;
+    height: 0;
+    width: 0;
+}
+
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #d0d0d0 #121212;
+}
+.right {
+    position: relative;
+   
+}
+.playbar{
+    position: absolute;
+    width: 70vw ;
+    height: 50px;
+    bottom: 0px ;
+    left: 10px;
+    background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 5px 10px;
+   border-radius: 28px;
+} 
+.btn {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    padding-bottom: 12px;
+    width: fit-content;
+    gap: 30px;
+    cursor: pointer;
+}
+.songInfo , .tm {
+    height: 100%;
+    width: 35%;
+    
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 7px;
+} 
+.songList  {
+    margin: 10px 10px 2px 10px;
+     padding: 5px 2px ;
+     overflow-y: auto;
+    
+     height: 55vh;
+} 
+.songList ul li {
+    color: white;
+    padding: 1px 1px;
+   margin: 6px 10px;
+   border: 1px solid rgb(144, 140, 140);
+   display: flex; 
+  height: 70px;
+  width: 21vw;
+cursor: pointer;
+
+} 
+      
+.immg {
+    height: 98%; 
+    width: 20%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  
+}
+.sgn {
+    height: 98%; 
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+}
+.plnw {
+    height: 98%; 
+    width: 30%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 5px;
+}
+
+.left {
+    padding-top: 10px;
+}
+.seekbar {
+    position: absolute; 
+    bottom: 6px; 
+    left: 20px  ; 
+    width: 97%;
+    height: 5px;
+    background-color: rgb(124, 118, 118);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.circ {
+    height: 14px;
+    width: 14px;
+    border-radius: 25px;
+background-color: green;
+    position: absolute;
+    bottom: -4px;
+    left: 0%;
+    
+}
+.ele {
+    height: 95%;
+    width: 0%;
+  background-color: green;
+    
+}
+#crs {
+    display: none;
+}
+.nv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: start;
+}
+#ham {
+    display: none;
+}
+@media (max-width: 1800px) {
+    .nav {
+        display: flex;
+        flex-direction: column; 
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #crs {
+    display: block;
+}
+.f {
+    display: flex; 
+    gap: 45px;
+    align-items: center;
+    justify-content: center; 
+
+    flex-wrap: wrap;
+   
+} 
+
+.thrdd {
+  
+     height: 8vh;
+}
+.songList {
+    padding-top: 30px;
+    padding: 2px;
+    margin: 2px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   
+    align-items: center;
+  
+ 
+}
+ .songList ul li {
+    width: 70vw;
+  margin: auto; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+   
+
+}
+.songList li  .immg{
+   width: 20vw;
+   display: flex;
+ gap: 5px;
+ justify-content: center;
+}
+.songList li .sgn{
+ width: 45vw;
+ display: flex;
+ gap: 5px;
+ justify-content: center;
+ 
+}
+.songList {
+    height: 64vh;
+}
+.songList li .plnw{
+ width: 30vw;
+ display: flex;
+ gap: 5px;
+ justify-content: center;
+}
+
+
+#ham {
+    display: block;
+}
+    .l {
+        width: 100vw;
+    }
+    .l ul {
+        width: 95vw;
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+      padding: 0px;
+   
+    }
+    .r {
+        width: fit-content;
+        display: flex; 
+        gap: 5px; 
+        justify-content: space-between;
+
+    } 
+     .container {
+        margin-top: 40px;
+        position: relative;
+        width: 95vw;
+        display: flex;
+        justify-content: center;
+      height: 85vh;
+        margin: 10px;
+    }
+    .left {
+        position: absolute;
+        left: -120%;
+        top: 20px;
+        z-index: 2;
+        width: 80vw;
+        transition: all 0.5s ;
+        background-color: black;
+      height: 78vh;
+    }
+    .right {
+        width: 100%;
+      
+           
+    }  
+    .cardContainer {
+       display: grid;
+grid-template-columns: repeat(3, 1fr);
+align-items: center;
+justify-items: center;
+   max-height: 72vh;
+   
+
+    }
+    .playbar {
+        width: 95%;
+        z-index: 1;
+    }
+    
+#cross {
+    padding: 4px;
+ 
+}
+    .sr {
+        margin: 3px;
+    }
+    
+    .l ul .box {
+        width: fit-content;
+      padding: 12px 10px;
+        margin: 2px;
+        display: flex;
+        gap: 5px;
+        justify-content: space-between;
+       
+    }
+    .bs {
+        width: 80px;
+        height: 50px;
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+   .l ul .box .sub:first-child div:nth-child(2) {
+      width: 220px;
+   
+    }
+    .sub {
+        margin: 2px;
+        padding: 2px;
+        display: flex;
+        gap: 3px ;
+        justify-content: space-between;
+    }
+    .sub div , h3 {
+        width: fit-content;
+}
+}
